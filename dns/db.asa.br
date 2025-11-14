@@ -1,0 +1,11 @@
+$TTL	604800
+@	IN	SOA	ns.cirilo.asa.br. root.cirilo.asa.br. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@		IN	NS	ns.
+@		IN	A	10.24.17.160
+www		IN	A	10.24.17.160

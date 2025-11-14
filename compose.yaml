@@ -1,0 +1,30 @@
+services:
+  dns:
+    build:
+    context: ./dns
+    container_name: dns-server
+    image: server-dns:pop
+    ports:
+      - '53:53/udp'
+
+  web1:
+    build: ./web1
+    container_name: web1
+    image: server-web1:pop
+    ports:
+      - "8081:80"
+
+  web2:
+    build: ./web2
+    container_name: web1
+    image: server-web2:pop
+    ports:
+      - "8082:80"
+
+  #proxy:
+    #build: 
+    #context: ./proxy
+    #container_name: proxy
+    #ports:
+      #- "80:80/tcp"
+      #- "443:443/tcp"
