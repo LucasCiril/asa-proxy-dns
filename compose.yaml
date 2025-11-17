@@ -1,7 +1,6 @@
 services:
   dns:
-    build:
-    context: ./dns
+    build: ./dns
     container_name: dns-server
     image: server-dns:pop
     ports:
@@ -11,20 +10,21 @@ services:
     build: ./web1
     container_name: web1
     image: server-web1:pop
-    ports:
-      - "8081:80"
 
   web2:
     build: ./web2
-    container_name: web1
+    container_name: web2
     image: server-web2:pop
-    ports:
-      - "8082:80"
 
-  #proxy:
-    #build: 
-    #context: ./proxy
-    #container_name: proxy
-    #ports:
-      #- "80:80/tcp"
-      #- "443:443/tcp"
+  proxy:
+    build: ./proxy
+    container_name: proxy
+    image: server-proxy:pop
+    ports:
+      - "80:80/tcp"
+      - "443:443/tcp"
+    volumes:
+      - ./proxy/certs:/etc/nginx/ssl
+    depends_on:
+      - web1
+      - web2
