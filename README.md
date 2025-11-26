@@ -32,26 +32,34 @@ O que fazer:
 
 O que entregar:
 - Repositório completo (Github)</p>
-<img>
-
-
+<img src="https://github.com/LucasCiril/asa-proxy-dns/blob/main/images/example.png" style="width:70%"><br>
 <p>Para executar testes em sua máquina, basta clonar o repositório e ter o Docker Desktop instalado em sua máquina. Antes de qualquer teste, abra o seu CMD e digite ipconfig. Você precisará trocar o IP que está setado no arquivo db.asa.br pelo ip da sua máquina.<br>
-<img><br>
+<img src="https://github.com/LucasCiril/asa-proxy-dns/blob/main/images/att%20captura.png" style="width:70%"><br>
 
 Uma vez trocado, você já pode iniciar um interpretador de comandos Shell. Normalmente, o VScode já disponibiliza o PowerShell/Git Bash. Todos os comandos estão automatizados, e aqui estão a lista de cada um:
 
-- ./ez.sh criar     #build as imagens e inicia o serviço#
-- ./ez.sh parar     #para o serviço sem o excluir#
-- ./ez.sh iniciar   #caso você tenha parado o serviço, esse comando retornará os containers à ativa#
-- ./ez.sh excluir   #exclui os containers criados#
-- ./ez.sh logs      #mostra os logs de todos os containers ups#
-- ./ez.sh reiniciar #reinicia os containers#
+1- ./ez.sh criar         
+- #build as imagens e inicia o serviço<br>
 
-<img><br>
+2- ./ez.sh parar
+- #para o serviço sem o excluir<br>
+
+3- ./ez.sh iniciar
+- #caso você tenha parado o serviço, esse comando retornará os containers à ativa<br>
+
+4- ./ez.sh excluir       
+- #exclui os containers criados<br>
+
+5- ./ez.sh logs          
+- #mostra os logs de todos os containers ups<br>
+
+6- ./ez.sh reiniciar     
+- #reinicia os containers<br>
+
 
 Por fim, use o comando para criar e após, você irá precisar trocar o seu servidor de DNS padrão para colocar em Localhost (127.0.0.1).
 
-<img><br>
+<img src="https://github.com/LucasCiril/asa-proxy-dns/blob/main/images/trocar%20dns.png" style="width:40%"><br>
 
 E então, você já pode pesquisar pelo endereço em seu navegador de preferência:
 
@@ -60,3 +68,5 @@ www.cirilo.asa.br
 
 <img><br>
 mail.cirilo.asa.br
+
+<h3 style="text-align:center" >☆   Finalizamos então por aqui. Até a próxima aventura, Invocador!   ☆ </a></h3>
