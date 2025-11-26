@@ -1,13 +1,13 @@
 $TTL	604800
-@	IN	SOA	cirilo.asa.br. root.cirilo.asa.br. (
+@	IN	SOA	ns.cirilo.asa.br. root.cirilo.asa.br. (
 			      1		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 ;
-@		IN	NS	ns.cirilo.asa.br.
+@		IN	NS	ns.
 ns		IN  A 	127.0.0.1
 
-www		IN	A	10.24.5.145
-mail	IN	A	10.24.5.145
+www		IN	A	10.24.22.26
+mail	IN	A	10.24.22.26
