@@ -63,10 +63,12 @@ Por fim, use o comando para criar e após, você irá precisar trocar o seu serv
 
 E então, você já pode pesquisar pelo endereço em seu navegador de preferência:
 
-<img><br>
+<img src="https://github.com/LucasCiril/asa-proxy-dns/blob/main/images/web1.png" style="width:70%"><br>
 www.cirilo.asa.br
 
-<img><br>
+<img src="https://github.com/LucasCiril/asa-proxy-dns/blob/main/images/web2.png" style="width:70%"><br>
 mail.cirilo.asa.br
 
 <h3 style="text-align:center" >☆   Finalizamos então por aqui. Até a próxima aventura, Invocador!   ☆ </a></h3>
+
+ <img class="hi" src="https://github.com/LucasCiril/asa-proxy-dns/blob/main/images/backyardigans-pablo-austin-cute-dance-x4t43fgxt1lkiqu9.gif" width="300" heigth="300" /><br>
