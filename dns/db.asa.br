@@ -11,3 +11,4 @@ ns		IN  A 	127.0.0.1
 
 www		IN	A	10.24.22.26
 mail	IN	A	10.24.22.26
+proxy 	IN	A 	10.24.22.26
